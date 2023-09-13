@@ -4,7 +4,7 @@ function firstNonRepeatedChar(str) {
  return null;
  }
 
- const charCount =new Array(26).fill(0);
+ const charCount =newArray(26).fill(0);
 
  for(let i=0;i<str.length;i++){
  const char=str[i];
@@ -18,5 +18,5 @@ function firstNonRepeatedChar(str) {
  }
  }
 }
-const input = prompt("Enter a string");
-alert(firstNonRepeatedChar(input)); 
+/*const input = prompt("Enter a string");
+alert(firstNonRepeatedChar(input)); */
